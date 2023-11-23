@@ -24,3 +24,22 @@
     </form>
 </div>
 <br>
+<br><br>
+<div id="Register">
+    <h1>inscription</h1>
+    <form action="?c=login&a=register" method="post" id="registerForm">
+        <label for="mail">Adresse e-mail :</label>
+        <br>
+        <input type="email" name="mail" id="mail" required>
+        <br>
+        <label for="username">Nom d'utilisateur :</label>
+        <br>
+        <input type="text" name="username" id="username" required>
+        <br>
+        <label for="password">Password :</label>
+        <br>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <input type="submit" name="send" id="send" required>
+    </form>
+</div>

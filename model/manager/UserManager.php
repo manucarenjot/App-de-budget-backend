@@ -6,7 +6,7 @@ class UserManager
     public static function addUser(User $user)
     {
         $insert = Connect::getPDO()->prepare("INSERT INTO user (mail, password, username, verification_key)
-                                                    VALUES (:mail, :password, :username,:verification_key)");
+                                                    VALUES (:mail, :password, :username, :verification_key)");
 
         $insert->bindValue(':mail', $user->getMail());
         $insert->bindValue(':password', $user->getPassword());

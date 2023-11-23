@@ -10,7 +10,7 @@ class Connect
     public static function getPDO(): PDO
     {
         $CHARSET = 'utf8';
-        $DB_NAME = 'sml06_projet_portfolio';
+        $DB_NAME = 'ofb84_budget_app';
         $SERVEUR = 'localhost';
         $USERNAME = 'root';
         $DB_PORT = 3307;
