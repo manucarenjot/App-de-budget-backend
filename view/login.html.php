@@ -20,7 +20,7 @@
         <br>
         <input type="submit" name="login" id="login">
         <br>
-        <a href="?c=forgot-password&a=recuperation">Mot de passe oublié ?</a>
+        <a href="?c=forgot-password">Mot de passe oublié ?</a>
     </form>
 </div>
 <br>
